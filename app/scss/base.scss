@@ -1,0 +1,13 @@
+@import './vendor/normalize/normalize.scss';
+@import './vendor/bootstrap/bootstrap.scss';
+
+@import '_theme';
+
+body {
+  background-color: $near-white;
+  color: $near-black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $mid-grey;
+}
