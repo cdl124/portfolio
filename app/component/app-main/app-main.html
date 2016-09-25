@@ -1,7 +1,20 @@
 <main class="app-main">
-  
+
   <h1> cdd </h1>
 
-  <app-nav></app-nav>
+  <app-nav select-page="appMainCtrl.selectPage(page)">
+  </app-nav>
+
+  <app-homepage
+  ng-show="appMainCtrl.selectedPage === 'home'">
+  </app-homepage>
+
+  <app-portfolio
+  ng-show="appMainCtrl.selectedPage === 'portfolio'">
+  </app-portfolio>
+
+  <app-about
+  ng-show="appMainCtrl.selectedPage === 'about'">
+  </app-about>
 
 </main>
