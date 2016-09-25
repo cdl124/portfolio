@@ -43,23 +43,22 @@ module.exports = {
   },
   module: {
     loaders: [
-       {
-         test: /\.js$/,
-         loader: 'babel',
-         exclude: /node_modules/,
-         query: {
-           presets: ['es2015']
-         }
-       },
-       {
-         test: /\.scss$/,
-         loader: ExtractText.extract('style', 'css!postcss!sass!')
-       },
-       {
-         test: /\.html$/,
-         loader: 'html'
-       }
-     ]
-    }
+      {
+        test: /\.js$/,
+        loader: 'babel',
+        exclude: /node_modules/,
+        query: {
+          presets: ['es2015']
+        }
+      },
+      {
+        test: /\.scss$/,
+        loader: ExtractText.extract('style', 'css!postcss!sass!')
+      },
+      {
+        test: /\.html$/,
+        loader: 'html'
+      }
+    ]
   }
 };
