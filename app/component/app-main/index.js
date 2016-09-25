@@ -23,6 +23,7 @@ function AppMainController() {
   this.selectPage = function(page) {
     if (page === 'home' || page === 'portfolio' || page === 'about') {
       this.selectedPage = page;
+      console.log('page selected:', page);
       return this.selectedPage;
     }
   };

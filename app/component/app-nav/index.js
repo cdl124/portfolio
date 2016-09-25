@@ -9,6 +9,8 @@ angular.module('devPortfolio')
   return {
     restrict: 'E',
     template: require('./app-nav.html'),
-    scope: {}
+    scope: {
+      selectPage: '&'
+    }
   };
 });

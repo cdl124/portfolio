@@ -1,5 +1,10 @@
+@import '../../scss/_theme';
+
 .app-nav {
-  display: block;
+  display: inline-block;
+  background-color: $mid-grey;
   width: 15%;
+  height: 30%;
   padding: 10px;
+  margin: 10px;
 }
