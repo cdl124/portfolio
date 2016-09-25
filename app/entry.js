@@ -9,6 +9,6 @@ angular.module('devPortfolio', []);
 
 require('./component/app-nav');
 
-require('./view/about');
-require('./view/home');
-require('./view/portfolio');
+require('./component/app-main');
+require('./component/app-about');
+require('./component/app-portfolio');
