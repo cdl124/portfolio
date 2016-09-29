@@ -3,8 +3,11 @@
 .app-nav {
   display: inline-block;
   background-color: $mid-grey;
-  width: 15%;
-  height: 30%;
   padding: 10px;
   margin: 10px;
+
+  ul li {
+    list-style-type: none;
+  }
+
 }
