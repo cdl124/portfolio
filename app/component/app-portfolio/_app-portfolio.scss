@@ -1,6 +1,7 @@
 @import '../../scss/_theme';
 
 .app-portfolio {
-  display: block;
-  background-color: $mid-grey;
+  img, p {
+    display: inline;
+  }
 }

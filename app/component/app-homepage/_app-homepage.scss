@@ -2,5 +2,8 @@
 
 .app-homepage {
   display: inline-block;
-  background-color: $mid-grey;
+  margin-left: 20%;
+  h2 {
+    color: $near-white;
+  }
 }

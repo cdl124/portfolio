@@ -12,6 +12,12 @@ h1, h2, h3, h4, h5, h6 {
   color: $mid-grey;
 }
 
-div, nav, section, main {
-  display: inline;
+.app-homepage, .app-about, .app-portfolio {
+  width: 75%;
+  min-height: 80%;
+  display: block;
+  background-color: $mid-grey;
+  padding: 10px;
+  margin: 0.5em 0.5em auto 20%;
+  overflow: hidden;
 }

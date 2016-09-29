@@ -2,9 +2,14 @@
 
 .app-about {
 
+  img {
+    float: left;
+    display: inline;
+    margin-right: 10px;
+  }
+
   p {
-    display: inline-block;
-    background-color: $mid-grey;
+    display: inline;
   }
 
 }

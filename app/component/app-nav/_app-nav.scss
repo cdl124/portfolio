@@ -1,7 +1,9 @@
 @import '../../scss/_theme';
 
 .app-nav {
+  width: 15%;
   display: inline-block;
+  position: fixed;
   background-color: $mid-grey;
   padding: 10px;
   margin: 10px;

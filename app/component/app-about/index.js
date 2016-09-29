@@ -1,5 +1,7 @@
 'use strict';
 
+require('./_app-about.scss');
+
 const angular = require('angular');
 
 angular.module('devPortfolio')
