@@ -11,5 +11,7 @@ require('./component/app-nav');
 
 require('./component/app-main');
 require('./component/app-homepage');
+require('./component/app-projects');
+require('./component/app-skills');
 require('./component/app-about');
-require('./component/app-portfolio');
+require('./component/app-contact');

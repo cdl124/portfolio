@@ -21,7 +21,7 @@ function AppMainController() {
 
   this.selectedPage = 'home';
   this.selectPage = function(page) {
-    if (page === 'home' || page === 'portfolio' || page === 'about') {
+    if (page === 'home' || page === 'projects' || page === 'skills' || page === 'about' || page === 'contact') {
       this.selectedPage = page;
       console.log('page selected:', page);
       return this.selectedPage;

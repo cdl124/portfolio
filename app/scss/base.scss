@@ -12,7 +12,11 @@ h1, h2, h3, h4, h5, h6 {
   color: $mid-grey;
 }
 
-.app-homepage, .app-about, .app-portfolio {
+.app-homepage,
+.app-projects,
+.app-skills,
+.app-about,
+.app-contact {
   width: 75%;
   min-height: 80%;
   display: block;
