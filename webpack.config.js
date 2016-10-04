@@ -58,6 +58,17 @@ module.exports = {
       {
         test: /\.html$/,
         loader: 'html'
+      },
+      {
+        test: /\.(jpe?g|gif|png)$/,
+        loaders: [
+          'file?hash=sha512&digest=hex&name=img/[hash].[ext]',
+          'image-webpack?bypassOnDebug&optimizationLevel=7&interlaced=false'
+        ]
+      },
+      {
+        test: /\.svg.*/,
+        loader: 'url?limit=10000&mimetype=image/svg+xml&name=fonts/[name].[ext]'
       }
     ]
   }

@@ -5,6 +5,9 @@
 
 body {
   background-color: $near-white;
+  // background-image: url('~../asset/img/bg-bw.jpg'), linear-gradient($near-white, $near-black);
+  background-position: center;
+  background-repeat: no-repeat;
   color: $near-black;
 }
 
