@@ -52,6 +52,10 @@ module.exports = {
         }
       },
       {
+        test: /\.js$/,
+        loader: 'imports?$=jquery!./[name].js'
+      },
+      {
         test: /\.scss$/,
         loader: ExtractText.extract('style', 'css!postcss!sass!')
       },
