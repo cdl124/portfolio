@@ -1,0 +1,30 @@
+<main class="app-main">
+  
+  <header>
+    <h1> cdd </h1>
+  </header>
+
+  <app-nav select-page="appMainCtrl.selectPage(page)">
+  </app-nav>
+
+  <app-homepage
+  ng-show="appMainCtrl.selectedPage === 'home'">
+  </app-homepage>
+
+  <app-projects
+  ng-show="appMainCtrl.selectedPage === 'projects'">
+  </app-projects>
+
+  <app-skills
+  ng-show="appMainCtrl.selectedPage === 'skills'">
+  </app-skills>
+
+  <app-about
+  ng-show="appMainCtrl.selectedPage === 'about'">
+  </app-about>
+
+  <app-contact
+  ng-show="appMainCtrl.selectedPage === 'contact'">
+  </app-contact>
+
+</main>

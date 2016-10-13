@@ -1,0 +1,9 @@
+@import '../../scss/_theme';
+
+.app-homepage {
+  display: inline-block;
+  margin-left: 20%;
+  h2 {
+    color: $near-white;
+  }
+}

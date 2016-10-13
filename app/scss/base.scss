@@ -1,13 +1,29 @@
 @import './vendor/normalize/normalize.scss';
-@import './vendor/bootstrap/bootstrap.scss';
+@import './vendor/bootstrap/_bootstrap.scss';
 
 @import '_theme';
 
-body {
-  background-color: $near-white;
+html, body {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../app/asset/img/bg-bw-lt.jpg');
   color: $near-black;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: $mid-grey;
+  color: $near-black;
+}
+
+.app-homepage,
+.app-projects,
+.app-skills,
+.app-about,
+.app-contact {
+  width: 75%;
+  min-height: 75%;
+  display: block;
+  background-color: $mid-grey-bg;
+  padding: 10px;
+  margin: 0em 0.5em auto 20%;
+  overflow: hidden;
 }

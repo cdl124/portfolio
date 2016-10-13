@@ -1,14 +1,14 @@
 'use strict';
 
-require('./_app-about.scss');
+require('./_app-contact.scss');
 
 const angular = require('angular');
 
 angular.module('devPortfolio')
-.directive('appAbout', function() {
+.directive('appContact', function() {
   return {
     restrict: 'E',
-    template: require('./app-about.html'),
+    template: require('./app-contact.html'),
     scope: {}
   };
 });

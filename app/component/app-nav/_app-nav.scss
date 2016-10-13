@@ -1,0 +1,15 @@
+@import '../../scss/_theme';
+
+.app-nav {
+  width: 15%;
+  display: inline-block;
+  position: fixed;
+  background-color: $mid-grey-bg;
+  padding: 10px;
+  margin-left: 10px;
+
+  ul li {
+    list-style-type: none;
+  }
+
+}
