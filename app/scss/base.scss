@@ -19,11 +19,11 @@ h1, h2, h3, h4, h5, h6 {
 .app-skills,
 .app-about,
 .app-contact {
-  width: 75%;
-  min-height: 75%;
+  width: 95%;
+  height: 75%;
   display: block;
   background-color: $mid-grey-bg;
   padding: 10px;
-  margin: 0em 0.5em auto 20%;
+  margin: auto;
   overflow: hidden;
 }
