@@ -1,7 +1,7 @@
 @import '../../scss/_theme';
 
 .app-nav {
-  width: 80%;
+  // width: 80%;
   display: inline-block;
   position: fixed;
   background-color: $mid-grey-bg;
@@ -13,9 +13,18 @@
     display: inline;
 
     li {
+      display: inline;
       list-style-type: none;
-      padding-right: 2em;
+      padding-right: 1.5em;
     }
   }
 
+}
+@media (max-width: 768px) {
+  .app-nav {
+    display: block;
+    ul li {
+      display: inline-block;
+    }
+  }
 }
