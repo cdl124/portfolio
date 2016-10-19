@@ -8,6 +8,7 @@ require('./scss/base.scss');
 angular.module('devPortfolio', []);
 
 require('./component/app-nav');
+require('./component/app-ham');
 
 require('./component/app-main');
 require('./component/app-homepage');

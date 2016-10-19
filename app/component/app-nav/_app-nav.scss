@@ -22,9 +22,6 @@
 }
 @media (max-width: 768px) {
   .app-nav {
-    display: block;
-    ul li {
-      display: inline-block;
-    }
+    display: none;
   }
 }

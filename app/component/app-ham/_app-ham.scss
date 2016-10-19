@@ -1,0 +1,44 @@
+@import '../../scss/_theme';
+
+.app-ham {
+
+  position: fixed;
+  padding: 1.5em;
+  margin-left: 80%;
+  margin-top: -6.5em;
+
+  .fa-bars {
+    position: absolute;
+    z-index: 100;
+    font-size: 3em;
+  }
+
+}
+
+.ham-exit.ng-leave {
+  animation: fade_animation 0.2s linear reverse;
+  * {
+    animation: fade_animation 0.2s linear reverse;
+  }
+}
+
+.ham-exit.ng-enter {
+  animation: fade_animation 0.2s linear;
+  * {
+    animation: fade_animation 0.2s linear;
+  }
+}
+
+@keyframes fade_animation {
+  from {
+    right: 0;
+  } to {
+    right: -100px;
+  }
+}
+
+@media (min-width: 768px) {
+  .app-ham * {
+    display: none;
+  }
+}
