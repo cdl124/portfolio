@@ -5,11 +5,12 @@
   <!-- <app-nav ng-if="appHamCtrl.showNav" class="ham-exit"><<app-nav> -->
   <ul ng-if="appHamCtrl.showNav"
   ng-click="!appHamCtrl.showNav"
+  ng-hide="selectPage()"
   class="ham-exit">
-    <li ng-click="selectPage({page: 'projects'})"> projects </li>
-    <li ng-click="selectPage({page: 'skills'})"> skills </li>
-    <li ng-click="selectPage({page: 'about'})"> about </li>
-    <li ng-click="selectPage({page: 'contact'})"> contact </li>
+    <li ng-click="selectPage({page: 'projects'}); appHamCtrl.closeNav()"> projects </li>
+    <li ng-click="selectPage({page: 'skills'}); appHamCtrl.closeNav()"> skills </li>
+    <li ng-click="selectPage({page: 'about'}); appHamCtrl.closeNav()"> about </li>
+    <li ng-click="selectPage({page: 'contact'}); appHamCtrl.closeNav()"> contact </li>
   </ul>
 
 </div>
