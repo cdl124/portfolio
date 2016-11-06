@@ -4,11 +4,13 @@
 
   header {
     width: 100%;
-    height: 20%;
+    // height: 12%;
     padding-bottom: 0em;
 
     .cdd {
-      height: 5em;
+      min-width: 100%;
+      max-width: 100%;
+      height: 5.5em;
       margin-left: -1em;
     }
 
