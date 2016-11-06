@@ -2,11 +2,12 @@
 
 .app-nav {
   // width: 80%;
-  display: inline-block;
+  display: inline;
   position: fixed;
-  background-color: $mid-grey-bg;
-  padding: 1.5em;
-  margin-left: 10px;
+  margin-top: 2.5em;
+  // background-color: $mid-grey-bg;
+  // padding: 1.5em;
+  // margin-left: 10px;
 
   ul {
 
@@ -15,7 +16,15 @@
     li {
       display: inline;
       list-style-type: none;
-      padding-right: 1.5em;
+
+      img {
+        height: 2em;
+      }
+
+      .projects {
+        height: 3em;
+        margin-top: 0.5em;
+      }
     }
   }
 
